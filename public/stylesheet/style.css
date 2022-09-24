@@ -1,0 +1,16 @@
+footer{
+    margin-top: 400px;
+    text-align: center;
+}
+
+footer::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.h3{
+    text-align: center;
+}

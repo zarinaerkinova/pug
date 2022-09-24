@@ -1,0 +1,30 @@
+{
+  "name": "fulapi",
+  "version": "1.0.0",
+  "description": "understanding restfullAPI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MirzaabdullayevTest/fullAPI.git"
+  },
+  "author": "Mirzaabdullayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MirzaabdullayevTest/fullAPI/issues"
+  },
+  "homepage": "https://github.com/MirzaabdullayevTest/fullAPI#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

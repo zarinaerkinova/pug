@@ -1,0 +1,18 @@
+block content
+nav
+    div(class='container')
+        div(class="nav-wrapper")
+            a(href="/" class="brand-logo") Pug
+            ul(id="nav-mobile" class="right hide-on-med-and-down")
+            if isHome
+                li(class='active')
+                    a(href="/") Home
+            else 
+                li
+                    a(href="/") Home
+            if isUsers
+                li(class='active')
+                    a(href="/users") Users
+            else 
+                li
+                    a(href="/users") Users
